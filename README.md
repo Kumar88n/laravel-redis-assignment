@@ -20,10 +20,16 @@ Ensure you have the following installed on your system:
 
 ## Setup Instructions
 
-### Step 1: Clone the Repository
+### Clone the Repository
 
  - git clone "repository-url"
  - cd "repository-folder"
+
+## Update ENV from example ENV
+ - Update DB credentials
+
+## Create JWT secret in ENV
+ - php artisan jwt:secret
 
 ## Install Dependencies
  - composer install
